@@ -440,3 +440,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/kgsl/kgsl-3d0    bus_split                0664    root  system
 /sys/class/graphics/fb0     dynamic_bitclk           0664    system  graphics
 /sys/devices/virtual/hdcp/msm_hdcp  min_level_change 0664    system  graphics
+
+# IR
+/dev/spidev7.1                                       0664    system  system
