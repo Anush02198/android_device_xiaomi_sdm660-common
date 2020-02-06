@@ -18,4 +18,4 @@
 /dev/block/bootdevice/by-name/dsp                           /vendor/dsp             ext4    ro,nodev,nosuid,barrier=1                                                                       wait,slotselect
 /dev/block/bootdevice/by-name/persist                       /mnt/vendor/persist     ext4    nodev,noatime,nosuid,barrier=1                                                                  wait
 
-/devices/soc/a800000.ssusb/a800000.dwc3/xhci-hcd.0.auto*    /storage/usbotg         vfat    nodev,nosuid                                                                                    wait,voldmanaged=usbotg:auto
+/devices/platform/soc/*.ssusb/*.dwc3/xhci-hcd.*.auto*       /storage/usbotg         vfat    nodev,nosuid                                                                                    wait,voldmanaged=usbotg:auto
