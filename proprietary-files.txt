@@ -473,23 +473,10 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|d0bb854210433066945f9d6e7943d0
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|785984e3c3b30671b78624484899dd418979cb56
 
 # Perf - from LA.UM.8.2.r1-07400-sdm660.0
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|12b68e8977e8f9f9aa1ec1284c018c731e8f45df
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
-vendor/etc/perf/commonresourceconfigs.xml|b014d70d329a385091aacb6539b2fee1bd9b285d
-vendor/etc/perf/perfboostsconfig.xml|9398d1e9b389d436950d9586ef38f4f88dfed7fc
-vendor/etc/perf/targetconfig.xml|376ae331df9d6c30b6208f25d04ae4ea11c0e2ea
-vendor/etc/perf/targetresourceconfigs.xml|24847e0237d2813639d1b2acfc4926ca8ce9060c
-vendor/lib/libperfconfig.so|f4ee23ed7fdcdf4729d268d2f30baac97c0c2bf9
-vendor/lib/libperfgluelayer.so|41dc533f2cb59a933601a7af1460f50cc548fb58
 vendor/lib/libqti-perfd-client.so|b97271d03ec5aab93125c750181c6ff03d136221
-vendor/lib/libqti-perfd.so|3437b3e22042f6d7db43d91df56107007073d3b3
-vendor/lib/libqti-util.so|b9610a3448b53d007965e1572a0d6c65414052ff
-vendor/lib64/libperfconfig.so|45d5344603d76d4d0b7f27bdd4ea07ac525656de
-vendor/lib64/libperfgluelayer.so|06f15511aa43ea3ebfff624e425952dcb7577701
 vendor/lib64/libqti-perfd-client.so|660d1d2a58e10616971c807b638f95b139b5a8e0
-vendor/lib64/libqti-perfd.so|003d9c728a25a50535fe7a77c3616b4079761166
-vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
+
 
 # Peripheral manager - from LA.UM.8.2.r1-07400-sdm660.0
 vendor/bin/pm-proxy|3182c937d93cc02c6721c053f57fc6794ad7edb3
