@@ -474,9 +474,10 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|785984e3c3b30671b78624484899dd
 
 # Perf - from LA.UM.8.2.r1-07400-sdm660.0
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
-vendor/lib/libqti-perfd-client.so|b97271d03ec5aab93125c750181c6ff03d136221
-vendor/lib64/libqti-perfd-client.so|660d1d2a58e10616971c807b638f95b139b5a8e0
 
+# Perf - from taimen QQ3A.200705.002
+vendor/lib/libqti-perfd-client.so|c1c7482b58fbe012f934b54bea78ff52068ea530
+vendor/lib64/libqti-perfd-client.so|d16c17427d6383368d035c9bf028630837b3b969
 
 # Peripheral manager - from LA.UM.8.2.r1-07400-sdm660.0
 vendor/bin/pm-proxy|3182c937d93cc02c6721c053f57fc6794ad7edb3
