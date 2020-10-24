@@ -4915,15 +4915,6 @@ esac
 case "$target" in
     "msm8998" | "apq8098_latv")
 
-if [ $panel -gt 1080 ]; then
-    echo 2 > /proc/sys/kernel/sched_window_stats_policy
-    echo 5 > /proc/sys/kernel/sched_ravg_hist_size
-else
-    echo 3 > /proc/sys/kernel/sched_window_stats_policy
-    echo 3 > /proc/sys/kernel/sched_ravg_hist_size
-fi
-
-
 # Disable wsf for all targets beacause we are using efk.
 # wsf Range : 1..1000 So set to bare minimum value 1.
 echo 1 > /proc/sys/vm/watermark_scale_factor
