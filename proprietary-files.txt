@@ -252,9 +252,9 @@ vendor/lib64/libsecureui.so|2dc60336aef5b68f20173648952477202b00c009
 vendor/lib64/libsecureui_svcsock.so|9cb1b317f10d53819158ff8b05b25929a7759857
 vendor/lib64/libssd.so|bf3b64cc51cbbe2d70373d94025725c49ce1d46b
 
-# Keymaster - from LA.UM.8.2.r1-07400-sdm660.0
+# Keymaster - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/lib64/libkeymasterdeviceutils.so|ea44915adfee57f1bd813b2184987565d396ab82
-vendor/lib64/libkeymasterprovision.so|25505bda86672a5ae31f75b8f8af0a3560ef648f
+vendor/lib64/libkeymasterprovision.so|c4a8047563fcdefa53a3418b5916e82988426b74
 vendor/lib64/libkeymasterutils.so|2791994395cd10eb1092b8bd8fea15987e17421d
 
 # DRM (HDCP) - from LA.UM.8.2.1.r1-05600-sdm660
@@ -489,6 +489,12 @@ vendor/lib64/vendor.display.color@1.1.so|d2dfc3fff6aaf7989110ebe05af154186e53501
 vendor/lib64/vendor.display.color@1.2.so|7b967425caa1205e331484e1e1484ac3bd355067
 vendor/lib64/vendor.display.postproc@1.0.so|c9c96ff50b6ff8989fac9fdf35d282a996ea477a
 
+# QRTR from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/qrtr-cfg|a7f9d9bf5cbd2e61c5853b6b2777ec20336e9866
+vendor/bin/qrtr-lookup|fb6cffbb7390b1b7f0cefe6c49ea8530d548dcee
+vendor/bin/qrtr-ns|d43bfbc74ebc51b4ce88a628579325388710cd7b
+vendor/lib64/libqrtr.so|c7ca700c1f4759aa673a6c5478ca492487bbea70
+
 # QMI - from curtana V12.0.1.0.RJWINXM
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
@@ -545,9 +551,6 @@ vendor/bin/adpl|2990c3789e20f93b364863fa20b65f35e05bf5fa
 vendor/bin/hw/qcrild|5e39ba4874188ccdbf5fc1b421d28398e845cdb1
 vendor/bin/netmgrd|a528a6fa3282885cb38b6b56d7a67ae11038ba3d
 vendor/bin/port-bridge|139a719ea43a99d52293c21908cd29390571d73d
-vendor/bin/qrtr-cfg|3a94d77a5077242740279f4f66a1405fb04a6ea7
-vendor/bin/qrtr-lookup|dcaccaff24dd5c6ca4500323557511fed1b348e5
-vendor/bin/qrtr-ns|906c7d84f382916a0f56e0301e99b2b0ff17a323
 vendor/bin/qti|543a48b6f5451ebc2927114802babc19112acc5f
 vendor/bin/rmt_storage|e703e38b4ce7276f9e5418e75ff7030be9b5abd8
 vendor/bin/tftp_server|999f991d23d7c6c96801603c6d3d55beb6d501c6
@@ -577,7 +580,6 @@ vendor/lib64/libpdnotifier.so|130f85f2f4050bd47ce1a3c43c587b34c3c82f6a
 vendor/lib64/libqcmaputils.so|6b404fb74f8c371f025992c8be9c0b93fada93f8
 vendor/lib64/libqcrilFramework.so|4a4a3177ca2cb9747b64c2ca88d60defeb85d058
 vendor/lib64/libqcrildatactl.so|aaa169e1ce510498b12ba00b62f108b8ae171b43
-vendor/lib64/libqrtr.so|f62ec96d0ed590122c37b9f5d19e05c7605c2eac
 vendor/lib64/libqsocket.so|8097bfbf5ec54222e46a027683fde03f8cc53626
 vendor/lib64/libril-qc-hal-qmi.so|2b1cc15a1c390b2941d1f1cf44497b159f8c5a6c
 vendor/lib64/libril-qc-logger.so|555092d6bbb41c98c54850c90d304f9a95ffa5d7
@@ -712,15 +714,15 @@ vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
 # Soter - from LA.UM.8.2.r1-07400-sdm660.0
 -app/SoterService/SoterService.apk|482523fabe02255e7ab6f80fbaaabe32c8fb3be9
 
-# Soter - from LA.UM.8.2.r1-07400-sdm660.0
+# Soter - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|37f9501fa45a69ba3a27fd338704d76afc534bcb
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|1f27eb012650705a40fac8fec6d0b2dd10a1ec22
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|59f1fa3e2e53b755c95e45cb2364bf683ac37cdb
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|0643caf5f72a8fe5797632f8ef7a59bf152a47d3
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|b08f0d2e92e0adce42127b5f978fa6bb22326ce1
 
-# SSR - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/bin/ssr_diag|e8ce0d08a05e4b737d520fdfc15395f716933ca4
-vendor/bin/ssr_setup|9cf9be4e2fe295a5e9313ffbb461603a9fd33e82
+# SSR - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/ssr_diag|24a3afbe2a0015c97e2e8c3ff5b4f7f158ebdf9f
+vendor/bin/ssr_setup|e6250f7f04ae3c964e97962332107547ef4ebf50
 vendor/bin/subsystem_ramdump|95d767081c102039dc96e2b00781cf43607cf1ea
 vendor/lib/libSubSystemShutdown.so|7714c39dd503f3121f87b877811fa8ac6e8b7247
 vendor/lib/libsubsystem_control.so|fe08da9f6a0e73a97231055c4ca8279a68432476
